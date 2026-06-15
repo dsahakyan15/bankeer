@@ -21,6 +21,25 @@
 .env.*
 !.env.example
 
+# Local AI tool state
+/.codex/
+/.claude/
+/.cursor/
+/.continue/
+
+# Local AI/chat drafts and exports
+*.prompt
+*.chat
+*.chatmd
+
+# Personal secrets and private keys
+*.key
+*.pem
+*.secret
+*.credentials
+*.env.local
+*.local
+
 # Hardhat coverage reports
 /coverage
 
